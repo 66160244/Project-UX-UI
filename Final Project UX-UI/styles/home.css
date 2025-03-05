@@ -1,0 +1,19 @@
+.action-card {
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.action-card:hover {
+    transform: translateY(-5px);
+    background-color: #f8f9fa;
+}
+
+.progress-bar {
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+.a{
+    color: black;
+}

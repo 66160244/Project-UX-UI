@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ค้นหา</title>
+    <link rel="stylesheet" href="./styles/search.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <div class="container mt-3">
+        <!-- Back Button -->
+        <div>
+            <a href="home.html" class="text-dark d-flex align-items-center mb-2">
+                <i class="bi bi-arrow-left fs-4 me-2" style="color: var(--main-red);"></i> 
+                <span style="color: var(--main-red);">กลับ</span>
+            </a>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="input-group mt-2">
+            <span class="input-group-text" style="background-color: var(--main-red); color: white;">
+                <i class="bi bi-search"></i>
+            </span>
+            <input type="text" class="form-control" placeholder="ข้าวมันไก่">
+            <button class="btn btn-custom" type="button">
+                <i class="bi bi-mic"></i>
+            </button>
+        </div>
+
+        <!-- Tabs -->
+        <ul class="nav nav-tabs mt-3">
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="search.html">ค้นหา</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">รายการโปรด</a>
+            </li>
+        </ul>
+
+        <!-- Results List -->
+        <div class="list-group mt-3">
+            <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">
+                <img src="https://f.ptcdn.info/326/040/000/o2ybx4c13iwIy4g4p4i-o.jpg" 
+                     class="me-3 rounded" 
+                     style="object-fit: cover;"
+                     width="80" 
+                     height="60" 
+                     alt="ข้าวมันไก่ 1จาน">
+                <div class="flex-grow-1">
+                    <h6 class="mb-1" style="color: var(--main-red);">ข้าวมันไก่ อกไม่หนัง</i></h6>
+                    <small class="text-muted">16% ของแคลอรี่ที่ควรบริโภคต่อวัน</small>
+                </div>
+                <span class="fw-bold" style="color: var(--main-red);">402 kcal</span>
+                <i style="color: var(--main-red);"class="bi bi-star-fill"></i>
+            </a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

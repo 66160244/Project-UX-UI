@@ -1,0 +1,37 @@
+:root {
+    --main-red: #8e1616;
+    --hover-red: #6e1010;
+}
+
+.btn-custom {
+    background-color: var(--main-red);
+    color: white;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: var(--hover-red);
+    color: white;
+}
+
+.nav-tabs .nav-link.active {
+    border-color: var(--main-red) var(--main-red) #fff;
+    color: var(--main-red);
+    font-weight: 500;
+}
+
+.list-group-item {
+    border-left: 3px solid var(--main-red);
+    margin-bottom: 8px;
+    transition: all 0.2s;
+}
+
+.list-group-item:hover {
+    transform: translateX(5px);
+    border-left-width: 5px;
+}
+
+.form-control:focus {
+    border-color: var(--main-red);
+    box-shadow: 0 0 0 0.25rem rgba(142, 22, 22, 0.25);
+}

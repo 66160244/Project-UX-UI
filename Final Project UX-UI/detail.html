@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>รายละเอียดเมนู</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container mt-3">
+        <!-- ปุ่มย้อนกลับ -->
+        <a href="search.html" class="text-dark d-flex align-items-center mb-5">
+            <i class="bi bi-arrow-left fs-4 me-2" style="color:#8e1616;"></i> 
+                <span style="color:#8e1616;">กลับ</span>
+        </a>
+        
+        <!-- ส่วนหัว -->
+        <div class="text-white p-3 rounded" style="background-color:#8e1616;">
+            <div class="d-flex align-items-center">
+                <img src="https://static.thairath.co.th/media/4DQpjUtzLUwmJZZSEmAUm74bI2EL8Sb34rOSLQkKjXQF.jpg" 
+                class="me-3 rounded" 
+                style="object-fit: cover;"
+                width="80" 
+                height="60" 
+                alt="ข้าวมันไก่ 1/2 จาน">
+                <div class="flex-grow-1">
+                    <h5 class="mb-1">ข้าวมันไก่ 1/2 จาน</h5>
+                    <small>12% ของแคลอรี่ที่ควรบริโภคต่อวัน</small>
+                </div>
+                <span class="fw-bold">299 kcal</span>
+                <i class="bi bi-star ms-2"></i>
+            </div>
+        </div>
+        
+        <!-- รายละเอียดแคลอรี่ -->
+        <div class="p-3 mt-3 rounded text-center text-white" style="background-color:#8e1616;">
+            <h4 class="fw-bold">299 แคลอรี่</h4>
+            <div class="d-flex justify-content-center align-items-center">
+                <input type="number" class="form-control text-center me-2" value="1" style="width: 60px;">
+                <span>ที่ (ใส่เป็นทศนิยมได้)</span>
+            </div>
+            <div class="mt-3">
+                <a href="search.html"><button class="btn btn-success me-2">บันทึกและค้นหาต่อ</button></a>
+                <a href="home.html"><button class="btn btn-primary">บันทึกลงไดอารี่</button></a>
+            </div>
+        </div>
+        
+        <!-- การเผาผลาญแคลอรี่ -->
+        <div class="text-white p-3 mt-3 rounded text-center" style="background-color:#8e1616;">
+            <h6>ปริมาณแคลอรี่เปรียบเทียบกับการเผาผลาญ</h6><br>
+            <div class="d-flex justify-content-between">
+                <div>
+                    <h6>เดิน</h6>
+                    <p>100 นาที</p>
+                </div>
+                <div>
+                    <h6>วิ่ง</h6>
+                    <p>30 นาที</p>
+                </div>
+                <div>
+                    <h6>ปั่นจักรยาน</h6>
+                    <p>44 นาที</p>
+                </div>
+                <div>
+                    <h6>ว่ายน้ำ</h6>
+                    <p>22 นาที</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
