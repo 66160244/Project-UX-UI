@@ -1,0 +1,21 @@
+        body {
+            background: linear-gradient(to bottom, #000, #8B0000);
+            min-height: 100vh;
+            color: white;
+        }
+
+        .login-card {
+            background: rgba(211, 43, 43, 0.8);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        .social-login .btn {
+            border-radius: 15px;
+            padding: 12px;
+        }
+
+        .divider {
+            border-top: 2px solid white;
+            opacity: 0.3;
+        }

@@ -1,0 +1,81 @@
+/* calendar.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+
+/* calendar container */
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0;
+    display: grid;
+    gap: 1rem;
+}
+
+table {
+    width: 10%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+td, th {
+    padding: 1.0rem;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+/* month styling */
+tr:first-of-type {
+    background: linear-gradient(135deg, #920eeb, #7540d8);
+    font-size: em;
+    color: white;
+}
+
+span {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 50%;
+    background-color: #ee40ff;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 700px) {
+    main {
+        padding: 0rem;
+    }
+    
+    td, th {
+        padding: 0.7rem;
+        font-size: 1rem;
+    }
+    
+    tr:first-of-type th {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 10px) {
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 100px) {
+    .container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
